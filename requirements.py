@@ -20,6 +20,6 @@ def get_local_weather():
         print(f"Condition: {condition}")
         print(f"Humidity: {humidity}")
     else:
-        print("Failed to retrieve the weather information.")
+        print("Could not retrieve the weather information.")
 
 get_local_weather()
